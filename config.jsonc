@@ -13,11 +13,12 @@
         "format": "{}"
     },
     "wlr/workspaces": {
-        "disable-scroll": false,
+        "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate",
+        "format": "{icon}",
         "persistent_workspaces": {
-            "1": ["1"],
+            "1": [],
             "2": [],
             "3": [],
             "4": [],
@@ -36,7 +37,7 @@
     },
 
     "clock": {
-        "format": "{: %I:%M %p   %a, %b %e}",
+        "format": "{: %R %I:%M %p   %a, %b %e}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
